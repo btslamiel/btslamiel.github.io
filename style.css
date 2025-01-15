@@ -1,10 +1,12 @@
 h1{
 	color: red;
-	text-align: center;
 }
-
 h2{
-	font-weight: 600;
-	color : darkgreen;
-	text-decoration: underline;
+	color: green;
+}
+p{
+	color: blue;
+}
+.classe{
+	color: orange;
 }
