@@ -1,0 +1,119 @@
+body {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1em;
+  background-color: #6fab67;
+}
+
+a {
+  color: #242424;
+  text-decoration: none;
+}
+
+em {
+  color: #106b00;
+  font-style: normal;
+}
+
+h1 {
+  text-decoration: underline;
+  text-align: center;
+  font-size: 3em;
+  color: #ea0000;
+  font-family: 'Montserrat', sans-serif;
+  margin: auto;
+}
+
+h2 {
+  color: #ea0000 ;
+}
+
+p{
+  font-size: 1.2em;
+  color: white;
+}
+
+td, th {
+  border: 1px solid black;
+}
+
+table {
+
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.align_haut {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.contenueettitre{
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.content {
+  display: flex;
+  gap: 80px;
+}
+
+.container1{
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.container1 div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.container1 img {
+  width: 275px;
+  height: 175px;
+  border-radius: 4%;
+}
+
+.align_bas{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.pied-de-page {
+  background-color: green;
+
+}
+
+.entete {
+  background-color: green;
+  display: flex;
+  justify-content: space-between; 
+}
+
+.cta {
+  background: linear-gradient(#8e86b5, #acaeed);
+  color: white;
+  border-radius: 50px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.cta{
+  background: linear-gradient(#23e600, #0d5500);
+}
+.cta:hover {
+  background: linear-gradient(#b72000, #ff2d00);
+  text-decoration: none;
+}
+
+.carre-contenu {
+  border-right: 2px solid #8e86b5;
+  border-bottom: 2px solid #8e86b5;
+}
