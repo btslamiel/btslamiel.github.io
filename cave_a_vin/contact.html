@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8" >
+	<link href="stylesheet.css" rel="stylesheet">
+	<title>SFCV : Contact</title>
+</head>
+
+<body>
+
+	<div id="entete">
+		<img src="images/logo.png">
+		<h1>SFCV</h1>
+		<h3>specialiste numero 1 des caves à vin dans le plus beau pays du monde.</h3>
+
+	</div>
+
+	<hr>
+
+	<div id="menu">
+		<ul>
+			<li><a href="index.html">Acceuil</a></li>
+			<li><a href="produits.html">Produits</a></li>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+
+	</div>
+
+
+	<div id="bloc">
+		<h2>Demande de catalogue</h2>
+
+		<form name="demande" id="demande" method="get" action="sti2d.lamielt@gmail.com">
+			<p>Demandez-nous vite notre catalogue gratuit !
+			   il vous sera livré dans les meilleurs délais</p>
+			<select name="civilite" id="civilite">
+				<option value="monsieur">Monsieur</option>
+				<option value="madmame">Madame</option>
+				<option value="non">et bah non pas de troisième option</option>
+			</select>  <br>
+			<label for="nom">Nom</label> : <input type="text" name="nom" id="nom"><br>
+			<label for="prenom">prenom</label> : <input type="text" name="prenom" id="prenom"><br>
+			<label for="adresse">Adresse</label> : <textarea type="text" name="adresse" id="adresse"></textarea> 
+			<label for="ville">Ville</label> : <input type="text" name="ville" id="ville">
+			<label for="codepostal">Code postal</label> : <input type="number" name="codepostal" id="codepostal"><br>
+			<label for="newsletter">je souhaite recevoir la newsletter</label><input type="checkbox" name="newsletter" id="newsletter" value="oui">
+			<label for="courriel">-courriel</label> : <input type="mail" name="courriel" id="courriel"><br>
+			<button name="action" value="envoyer">envoyer</button>
+		</form>
+
+		
+	</div>
+	<hr>
+
+	<div id="pied">
+		<p>© SFCV - <a href="mentions.html">Mentions légales</a></p>
+		<p>L'abus d'alcool est dangereux pour la santé, à consommer avec modération</p>
+	</div>
+
+
+</body>
+
+</html>
